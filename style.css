@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 75%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #0002;
+    border-radius: 10px 10px 0 0 ;
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 25px  25px;
+    text-align: center;
+}
+.table thead{
+    background: #0525a2;
+    color: #fff;
+    
+}
+.table tbody td:nth-child(odd){
+    background: #afd7ff;
+}
+button{
+    padding: 10px 10px;
+    background: #0525a2;
+    color: #fff;
+    border: none;
+}
